@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ARKHAM ARCHIVES</string>
+    <string name="title">Hello and welcome</string>
+    <string name="cont" translatable="false">Select Country</string>
+    <string name="paym" translatable="false">Select Payment Method</string>
+    <string name="next" translatable="false">NEXT</string>
+</resources>

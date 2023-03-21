@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:text="SIGN UP"
+            android:fontFamily="@font/worldconflict"
+            android:textColor="#F9F7F3"
+            android:textSize="130px"
+            android:gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/regrog"
+                android:textColor="@color/white"
+                android:hint="Name"
+                android:textColorHint="#F9F7F3"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Choose"
+                android:fontFamily="@font/regrog"
+                android:drawableRight="@drawable/down"
+                android:drawablePadding="40dp"
+                android:textColor="#F9F7F3"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <TextView
+                android:id="@+id/fingerprint1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:text="Fingerprint recognition"
+                android:fontFamily="@font/regrog"
+                android:textColor="#F9F7F3"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="31dp"
+            android:layout_height="22dp"
+            android:text="OR"
+            android:fontFamily="@font/worldconflict"
+            android:textColor="#B00404"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="182dp"
+            android:layout_marginLeft="194dp"/>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <TextView
+                android:id="@+id/face1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="110dp"
+                android:drawableRight="@drawable/eye"
+                android:drawablePadding="40dp"
+                android:fontFamily="@font/regrog"
+                android:text="Face scan"
+                android:textColor="#F9F7F3"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:text="OR"
+            android:textColor="#B00404"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/worldconflict"
+            android:layout_marginRight="182dp"
+            android:layout_marginLeft="194dp"/>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:id="@+id/signup"
+                android:text="SIGN UP WITH GOOGLE"
+                android:fontFamily="@font/catrog"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                app:cornerRadius = "20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

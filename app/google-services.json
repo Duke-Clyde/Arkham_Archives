@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319197580094",
+    "project_id": "arkham-archives-35dca",
+    "storage_bucket": "arkham-archives-35dca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319197580094:android:97aea58177df401b077a6f",
+        "android_client_info": {
+          "package_name": "com.example.arkhamarchives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319197580094-7huvebnqofmfjpitoc94fng6i2tc5h4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmTUZ1OaEgabEl1yrYSLFsi05NdFr7pxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319197580094-7huvebnqofmfjpitoc94fng6i2tc5h4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
